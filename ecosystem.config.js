@@ -5,8 +5,8 @@ module.exports = {
       script: "node_modules/next/dist/bin/next",
       args: "start",
       cwd: "./",
-      instances: 2, // atau 'max' untuk menggunakan semua CPU cores
-      exec_mode: "cluster",
+      instances: 1, // ubah dari 2 ke 1
+      exec_mode: "fork", // ubah dari 'cluster' ke 'fork'
       env: {
         NODE_ENV: "production",
         PORT: 3060,
