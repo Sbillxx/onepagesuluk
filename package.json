@@ -11,7 +11,11 @@
   "dependencies": {
     "react": "19.2.0",
     "react-dom": "19.2.0",
-    "next": "16.0.2"
+    "next": "16.0.2",
+    "lucide-react": "latest",
+    "motion": "latest",
+    "clsx": "latest",
+    "tailwind-merge": "latest"
   },
   "devDependencies": {
     "typescript": "^5",
